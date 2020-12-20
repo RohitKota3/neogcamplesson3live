@@ -11,6 +11,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 /* Container */
 .container{
     padding: 0rem 1rem;
@@ -45,7 +49,13 @@ body{
 
 /* look into BEM naming convention for CSS */
 
+/* Lists */
 
+.list-non-bullet{
+    list-style: none;
+}
 
-
-
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5 rem;
+}
