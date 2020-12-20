@@ -1,16 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root{
+    --primary-color: #6EE7B7
+    ;
+
+
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Container */
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
     max-width: 600px;
     margin: auto;
 }
+
+/* Links */
+
+.link{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+}
+
+
+.link-primary{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    
+    border: 0.5px solid var(--primary-color);
+}
+
+/* look into BEM naming convention for CSS */
+
+
+
+
+
