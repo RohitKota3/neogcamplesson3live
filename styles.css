@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --primary-color: #6EE7B7
+    --primary-color: #6EE7B7;
+    --dark-blue: #1D4ED8
+    ;
     ;
 
 
@@ -86,3 +88,24 @@ hr{
     font-weight: bold;
 }
 
+/* header */
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-blue);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
